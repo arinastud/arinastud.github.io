@@ -67,3 +67,38 @@ h3 {
 .h3 {
 	color: white;
 }
+.active {
+	background-color: pink;
+}
+/*animacia*/
+
+.img-container {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    animation: animate .7s infinite ease-in-out;
+}
+.img-container .main-img {
+    width: 350px;
+}
+
+@keyframes animate {
+    50% {
+        transform: translate(-50%, -48%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+.img-container2 {
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    animation: animate .7s infinite ease-in-out;
+}
+.img-container2 .main-img2 {
+    width: 350px;
+}
+
